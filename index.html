@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>$(document).ready(function(){
+        $('img').click(function(){
+            $(this).css("visibility", "hidden");
+        })
+
+        $('button').click(function(){
+            $('img').css("visibility", "visible");
+        })
+
+    })
+    </script>
+</head>
+<body>
+    <h1>jQuery - Disappearing Ninja</h1>
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <img src = "dojocat.jpg" alt="dojocat" width = "250">
+    <button>Restore</button>
+
+</body>
